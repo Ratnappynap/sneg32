@@ -1,0 +1,162 @@
+* {
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header-sneg{
+  padding-top: 10px;
+     margin: 0 auto;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.photo1{
+    padding: 20px 20px;
+    margin: 0 auto;
+    justify-self: center;
+    width: 550px;
+  align-content: center;
+}
+.photo2{
+     padding: 20px 20px;
+       width: 550px;
+       margin: 0 auto;
+       justify-self: center;
+  align-content: center;
+}
+
+.infoSneg{
+     margin: 0 auto;
+    justify-self: center;
+    align-content: center;
+    justify-items: center;
+    width: 60%;
+  padding-bottom: 20px;
+}
+.infoSneg p{
+    padding-bottom: 10px;
+}
+.infoSneg h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sneg-li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 5;
+}
+.sneg-li a{
+        text-decoration: none;
+}
+.sneg-li img{
+ width: 70px;
+ height: 70px;
+}
+.SformSneg input{
+ max-width:none;
+}
+input{
+  margin: 5px 0 10px 5px;
+  padding: 10px;
+  max-width:fit-content;
+  width: 80%;
+}
+.formSneg{
+    margin: 0 auto;
+    width: 80%;
+}
+.SformSneg{
+    margin: 0 auto;
+    width: 80%;
+}
+.btn-sneg{
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.37);
+}
+.btn-sneg:hover{
+   background-color: rgba(206, 23, 23, 0.521);
+}
+.sneg-table{
+  margin: 0 auto;
+
+	width: 60%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+.sneg-table td,.sneg-table th {
+	border: 1px solid #595959;
+}
+.sneg-table td,.sneg-table th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+.sneg-table th {
+	    background: #4e6982;
+	color: #fff; 
+	font-weight: normal;
+}
+footer{
+  margin-top: 20px;
+  padding: 20px;
+    background-color:rgb(182, 182, 182);
+justify-items: center;
+}
+@media (max-width: 320px){
+    *{
+          max-width: 320px;
+    }
+    
+.header-sneg{
+  display:grid;
+
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+.sneg-li{
+
+  line-height: normal;
+}
+.photo1{
+   max-width: 100%;
+   padding: 0;
+}
+.photo2{
+      max-width: 100%;
+         padding: 0;
+}
+
+.infoSneg{
+     max-width: 90%;
+}
+
+.formSneg{
+    max-width: 70%;
+}
+.SformSneg{
+    max-width: 70%;
+}
+.btn-sneg{
+  cursor: pointer;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.37);
+}
+.sneg-table{
+	max-width: 90%;
+}
+
+footer{
+  max-width: 100%;
+}
+}
